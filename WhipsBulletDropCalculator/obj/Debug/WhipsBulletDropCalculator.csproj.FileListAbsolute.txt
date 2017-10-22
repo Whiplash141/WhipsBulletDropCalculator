@@ -1,8 +1,6 @@
 C:\Users\Joshua\documents\visual studio 2017\Projects\WhipsBulletDropCalculator\WhipsBulletDropCalculator\bin\Debug\WhipsBulletDropCalculator.exe.config
 C:\Users\Joshua\documents\visual studio 2017\Projects\WhipsBulletDropCalculator\WhipsBulletDropCalculator\bin\Debug\WhipsBulletDropCalculator.exe
 C:\Users\Joshua\documents\visual studio 2017\Projects\WhipsBulletDropCalculator\WhipsBulletDropCalculator\bin\Debug\WhipsBulletDropCalculator.pdb
-C:\Users\Joshua\documents\visual studio 2017\Projects\WhipsBulletDropCalculator\WhipsBulletDropCalculator\bin\Debug\System.Numerics.Vectors.dll
-C:\Users\Joshua\documents\visual studio 2017\Projects\WhipsBulletDropCalculator\WhipsBulletDropCalculator\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Joshua\documents\visual studio 2017\Projects\WhipsBulletDropCalculator\WhipsBulletDropCalculator\obj\Debug\WhipsBulletDropCalculator.csprojResolveAssemblyReference.cache
 C:\Users\Joshua\documents\visual studio 2017\Projects\WhipsBulletDropCalculator\WhipsBulletDropCalculator\obj\Debug\WhipsBulletDropCalculator.BulletDropForm.resources
 C:\Users\Joshua\documents\visual studio 2017\Projects\WhipsBulletDropCalculator\WhipsBulletDropCalculator\obj\Debug\WhipsBulletDropCalculator.Properties.Resources.resources

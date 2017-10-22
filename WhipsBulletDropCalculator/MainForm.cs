@@ -8,17 +8,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Numerics;
-using System.Windows.Media;
 
 namespace WhipsBulletDropCalculator
 {
     public partial class BulletDropForm : Form
     {
-        string version = "v0.0.1";
+        string version = "v0.0.2";
+        string date = "10/21/17";
         int centerX = 720;
         int centerY = 725;
         float mildotSpacing = 22.5f;
-        System.Drawing.Color aimpointColor = System.Drawing.Color.FromArgb(0, 255, 0);
+        Color aimpointColor = Color.FromArgb(0, 255, 0);
 
         float timeToSimulate = 8f;
         float timeStep = 0.0001f; // seconds
@@ -35,7 +35,7 @@ namespace WhipsBulletDropCalculator
         public BulletDropForm()
         {
             InitializeComponent();
-            this.Text = $"Whip's Bullet Drop Calculator ({version})";
+            this.Text = $"Whip's Bullet Drop Calculator ({version} - {date})";
         }
 
         public void InitializeValues()
@@ -143,7 +143,7 @@ namespace WhipsBulletDropCalculator
             pictureBoxScope.Image = image;
         }
 
-        public void SetPixelSafe(Bitmap image, int x, int y, System.Drawing.Color color)
+        public void SetPixelSafe(Bitmap image, int x, int y, Color color)
         {
             if (x > 0 && x <= image.Width && y > 0 && y <= image.Height)
                 image.SetPixel(x, y, color);

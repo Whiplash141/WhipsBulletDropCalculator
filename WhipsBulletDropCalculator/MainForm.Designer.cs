@@ -202,9 +202,9 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(12, 528);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(146, 51);
+            this.label8.Size = new System.Drawing.Size(144, 51);
             this.label8.TabIndex = 14;
-            this.label8.Text = "Bullet Drop Converter\r\nAuthor: Whiplash141\r\nComissioned by: Scav";
+            this.label8.Text = "Bullet Drop Converter\r\nAuthor: Whiplash141\r\nRequested by: Scav";
             // 
             // label6
             // 
@@ -263,7 +263,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "BulletDropForm";
-            this.Text = "Whip\'s Bullet Drop Calculator (v1.0.0)";
+            this.Text = "Whip\'s Bullet Drop Calculator ({VERSION})";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownRange)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownZero)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownBulletSpeed)).EndInit();
