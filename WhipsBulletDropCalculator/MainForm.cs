@@ -13,8 +13,8 @@ namespace WhipsBulletDropCalculator
 {
     public partial class BulletDropForm : Form
     {
-        string version = "v0.0.2";
-        string date = "10/21/17";
+        string version = "v0.0.3";
+        string date = "10/22/17";
         int centerX = 720;
         int centerY = 725;
         float mildotSpacing = 22.5f;
@@ -123,7 +123,7 @@ namespace WhipsBulletDropCalculator
                 }
             }
 
-            mildots = -targetPos.Y / targetPos.X * 1000f;
+            mildots = (float)Math.Atan(-targetPos.Y / targetPos.X) * 1000f;
             string direction = mildots > 0 ? "above" : "below";
 
             textBoxMildot.Text = $"Aim {Math.Abs(mildots):N2} mildots {direction} target";
